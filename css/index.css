@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header
+{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    width: 200px;
+    height: 80px;
+}
+header .logo img
+{
+    width: 100%;
+    height: 100%;
+}
+header .headerbtn .loginbtn
+{
+    background-color: white;
+    border: 2px solid #d70f62;
+    padding: 5px 22px;
+    text-transform: uppercase;
+    color: #d70f62;
+    font-weight: 500;
+}
+header .headerbtn .signupbtn
+{
+    background-color: #d70f62;
+    border: 2px solid #d70f62;
+    padding: 5px 22px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.banner
+{
+    width: 100%;
+    height: 55vh;
+    background-image: url(../images/hero-home-pk.webp);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: 140%;
+}
+.banner .bannercontent
+{
+    width: 100%;
+    padding: 5% 10%;
+    font-size: 15px; 
+}
+.banner .bannercontent h2
+{
+    width: 40%;
+    font-weight: 200    ;
+    
+}
+.banner .bannercontent input
+{
+    width: 35%;
+    height: 45px;
+    display: flex;
+    text-transform: capitalize;
+    float: left;
+    padding-left: 18px;
+    margin-top: 30px;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 15%);
+    color: white;
+}
+.banner .bannercontent placeholder
+{
+    font-weight: 300px;
+}
+.banner .bannercontent .bannerbtn button
+{
+    background-color: #d70f62;
+    border: none;
+    padding: 5px 22px;
+    text-transform: uppercase;
+    color: white;
+    height: 45px;
+    font-weight: 500;
+    display: inline-block; 
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.banner .bannercontent .bannerbtn span
+{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.abouttitle
+{
+    margin-top: 100px;
+    width: 55%;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+}   
+.abouttitle::before
+{
+    content: "partners";
+    position: absolute;
+    bottom: -80px;
+    left: 160px;
+    font-size: 10em;
+    font-weight: 700;
+    color: rgba(211, 211, 211, 0.8);
+    z-index: -999;
+}
+.abouttitle h2
+{
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #333;
+    z-index: 1000;
+    padding-left: 50px;
+}
+.about
+{
+    width: 100%;
+    height: 60vh;
+    background-image:url(../images/home-vendor-pk.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.about .aboutcontent
+{
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    padding: 20px 40px;
+    top: 230px;
+    left: 150px;
+    position: absolute;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 15%);
+}
+.about .aboutcontent h2
+{
+    font-weight: 300;
+}
+.about .aboutcontent p
+{
+    font-weight: 200;
+}
+.about .aboutcontent .aboutbtn
+{
+    float: right;
+    margin-top: 15px;
+    background-color: #d70f62;
+    color: white;
+    padding: 5px 30px;
+    width: 45%;
+    height: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    border: none;
+}
+.citytitle
+{
+    margin-top: 100px;
+    width: 55%;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+}   
+.citytitle::before
+{
+    content: "Citites";
+    position: absolute;
+    bottom: -80px;
+    left: 120px;
+    font-size: 10em;
+    font-weight: 700;
+    color: rgba(211, 211, 211, 0.8);
+    z-index: -999;
+  
+}
+.citytitle h2
+{
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #333;
+    z-index: 1000;
+    padding-right: 90px;
+    margin-top: 10px;
+}
+.city 
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city .citycontent
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.city .citycontent .citycard
+{
+    width: 210px;
+    height: 265px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-image: url("../images/hero-home-pk.webp");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.city .citycontent .citycard h2
+{
+    font-size: 1.7em;
+    margin-top: 120%;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .citycontent .citycard .alphabet
+{
+    position: absolute;
+    top: -155px;
+    right: 58%;
+    font-size: 150px;
+    font-weight: 600;
+    color: #d70f62;
+    z-index: 999;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+.city .citycontent .citycard:hover .alphabet
+{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
